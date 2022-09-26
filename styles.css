@@ -1,0 +1,34 @@
+*{
+
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.banner-wrap{
+
+    background-image: url(./Assets/bg2.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 20vh;
+    width: 100vw;
+    position: relative;
+    z-index: 1;
+}
+
+.overlay {
+    z-index: -1;
+    height: 100%;
+    width: 100%;
+    background: black;
+    opacity: 60%;
+    position: absolute;
+    top: 0;
+  }
+
+
+.bullets{
+
+    list-style-type:none
+}
